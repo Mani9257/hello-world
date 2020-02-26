@@ -28,6 +28,12 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
+         <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://13.229.146.207:8081/nexus/content/repositories/apache-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <plugins>
